@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root{
+    --color-primary: #ffc400;
+    --color-light: #fff;
+    --btn-bg-primary: #00bfcc;
+    --btn-color-primary: #fff;
+    --btn-bg-hover-primary: #008dcc;
+    --btn-color-hover-primary: #f5f5f5
+}
+
+
+.color-celeste{
+    color: #00bfcc;
+}
+
+.color-blanco{
+    color: white;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/**Colores**/
+.kt-bg-primary{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+.kt-bg-light{
+    background-color: var(--color-light);
+}
+
+.kt-bg-footer{
+    background-color: #313131;
+}
+
+.kt-bg-header{
+    background-color: #eaae00;
+    color: white;
+}
+
+/**size**/
+
+.kt-fs-1{
+    font-size: 4.5rem;
+}
+.kt-fs-2{
+    font-size: 4rem;
+    }
+.kt-fs-3{
+    font-size: 3.5rem;
+}
+.kt-fs-4{
+    font-size: 3rem;
+}
+.kt-fs-5{
+    font-size: 2.5rem;
+}
+.kt-fs-6{
+    font-size: 2rem;
+}
+.kt-fs-7{
+    font-size: 1.5rem;
+}
+.kt-fs-8{
+    font-size: 1rem;
+}
+
+/*bold*/
+.kt-bold{
+    font-weight: 700;
+}
+.kt-thin{
+    font-weight: 100;
+}
+
+.kt-thin3{
+    font-weight: 500;
+} 
+
+.kt-thin2{
+    font-weight: 400;
+}
+
+/*Botones*/
+.kt-btn-primary{
+    background-color: var(--btn-bg-primary);
+    color: var(--btn-color-primary);
+    border: none;
+    border-radius: 10px;
+}
+.kt-btn-primary:hover{
+    background-color: var(--btn-bg-hover-primary);
+    color: var(--btn-color-hover-primary)
+}
+.kt-btn-outline-primary{
+    background-color: transparent;
+    color: var(--btn-color-primary);
+    border: 3px solid var(--btn-color-primary);
+    border-radius: 10px;
+}
+
+.kt-btn-primary-2{
+    color: var(--btn-color-primary);
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    border:  var(--color-primary);
+}
+
+.kt-btn-primary3{
+    background-color: var(--btn-bg-primary);
+    color: var(--btn-color-primary);
+    border: none;
+    border-radius: 40px;
+    width: 160px;
+}
+
+.kt-btn-header{
+    color: white;
+    border: none;
+    background: #eaae00;
+}
+
+
+/* pocision */
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+/* el fondo pe */
+.fondo-dorado{
+    /* background-image: url(imagenes/fondodorado.jpg); */
+    background-color: #ffc400;
+    width: 100%;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* icono */
+ .circulo{
+    background-color: #ffc400;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    height: 30px;
+    width: 30px;
+ }
+
+ .circulo1{
+    background-color: white;
+    color: #313131;
+    border-radius: 50%;
+    border: none;
+    height: 30px;
+    width: 30px;
+ }
+
+
+ .search{
+    width: 60%;
+    height: 50px;
+    background-color: #ffc400;
+    border: #ffc400;
+ }
+
+ .search1{
+    width: 70%;
+    height: 50px;
+    background-color: #ffc400;
+    border: #313131;
+ }
+
+ .cuadrado{
+    background-color:var(--btn-bg-primary);
+    color: white;
+    border: #00bfcc;
+    height: 50px;
+    width: 80px;
+ }
+
+.cruz{
+    position: relative;
+    right: 40px;
+    bottom: 5px;
+    color: #eaae00;
+}
